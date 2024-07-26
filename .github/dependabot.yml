@@ -9,6 +9,9 @@ updates:
     directory: "/javascript"
     schedule:
       interval: "weekly"
+    ignore:
+      - dependency-name: "lodash"
+        versions: ["4.17.x"]
   - package-ecosystem: bundler
     directory: "/ruby"
     schedule:
